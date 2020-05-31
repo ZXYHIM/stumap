@@ -1,0 +1,78 @@
+
+page{
+	margin: 0;
+	padding: 0;
+}
+.mapstyle{
+	width: 750rpx;
+	height: 1334rpx;
+}
+.mapflex{
+	width: 750rpx;
+	height: 700rpx;
+	background-color: #FFFFFF;
+	position: fixed;
+	bottom: 0rpx;
+	left: 0rpx;
+	min-height: 700rpx;
+}
+.maptop{
+	width: 750rpx;
+	height: 144rpx;
+}
+.mapconter{
+	width: 750rpx;
+	height: 466rpx;
+	margin-left: 20rpx;
+	margin-top: 19rpx;
+}
+.mapcontericon{
+	width: 14rpx;
+	height: 26rpx;
+}
+.mapconterimg{
+	width: 87rpx;
+	height: 87rpx;
+}
+.mapfooter{
+	width: 750rpx;
+	height: 100rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-align-content: center;
+	        align-content: center;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+}
+.mapfoot{
+	width: 374rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	-webkit-align-content: center;
+	        align-content: center;
+}
+.mapxian{
+	width:1px;
+	height:70px;
+	background:rgba(230,230,230,1);
+}
+.mapfootimg{
+	width: 46rpx;
+	height: 46rpx;
+	margin-left: 66rpx;
+}
+.mapfoottext{
+	font-size:28rpx;
+	font-weight:400;
+	color:rgba(7,189,99,1);
+	margin-left: 25rpx;
+}
+

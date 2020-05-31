@@ -1,0 +1,50 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "同学录地图"
+		}
+	},{
+		"path":"pages/me/me",
+		"style": {
+			"navigationBarTitleText":"我的"
+		}
+	},{
+		"path":"pages/map/map",
+		"style":{
+			"navigationBarTitleText":"同学录详情"
+		}
+	},{
+		"path":"pages/list/list",
+		"style":{
+			"navigationBarTitleText":"创建同学录"
+		}
+	}],
+	"globalStyle":{
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#07BD63",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar":{
+		"color":"#888888",
+		"selectedColor":"#07BD63",
+		"borderStyle":"black",
+		"backgroundColor":"#FFFFFF",
+		"height":"80px",
+		"fontSize":"10px",
+		"spacing":"3px",
+		"list":[{
+			"pagePath":"pages/index/index",
+			"iconPath":"./static/image/home@2x.png",
+			"selectedIconPath":"static/image/tabhome@2x.png",
+			"text":"同学录"
+		},{
+			"pagePath":"pages/me/me",
+			"iconPath":"static/image/tabme@2x.png",
+			"selectedIconPath":"static/image/me@2x.png",
+			"text":"我的"
+			}
+		]
+	}
+}
